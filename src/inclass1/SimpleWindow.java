@@ -10,6 +10,7 @@ setSize(WIDTH,HEIGHT);
 Container contentPane = getContentPane();
 JLabel label = new JLabel
 ("You can display text using a label.");
+this.setTitle("John Stone");
 contentPane.add(label);
 contentPane.setBackground(Color.GREEN);
 addWindowListener(new WindowDestroyer());
