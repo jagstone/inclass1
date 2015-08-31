@@ -12,7 +12,7 @@ JLabel label = new JLabel
 ("You can display text using a label.");
 this.setTitle("John Stone");
 contentPane.add(label);
-contentPane.setBackground(Color.GREEN);
+contentPane.setBackground(Color.CYAN);
 addWindowListener(new WindowDestroyer());
 }
 public static void main(String[] args)
